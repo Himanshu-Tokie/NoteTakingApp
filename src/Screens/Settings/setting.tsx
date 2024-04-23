@@ -1,17 +1,15 @@
+import React from "react";
 import { Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-export default function Note(){
+export default function Setting({navigation}){
     return(
         <>
         <SafeAreaView>
         <View>
             <Text>
-                Welcome Tab
+                Welcome Setting
             </Text>
-        </View>
-        <View>
-            
         </View>
         </SafeAreaView>
         </>

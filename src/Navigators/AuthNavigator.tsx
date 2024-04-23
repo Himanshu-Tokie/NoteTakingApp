@@ -10,7 +10,7 @@ export default function AuthNavigator(){
     const Stack = createStackNavigator();
     return (
         <SafeAreaView style={navigatorStyle.container}>
-            <NavigationContainer>
+            <NavigationContainer >
                 <Stack.Navigator initialRouteName={Navigation.Home} screenOptions={{headerShown:false}}>
                     {/* <Stack.Screen name={Navigation.Login} cromponent={Login}></Stack.Screen> */}
                     <Stack.Screen name={Navigation.Home} component={DrawerNavigation}></Stack.Screen>

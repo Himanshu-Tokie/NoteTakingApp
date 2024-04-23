@@ -8,7 +8,7 @@ export default function App(){
     <>
     <Provider store = {store}>
       <PersistGate loading={null} persistor={persister}>
-        <AuthNavigator></AuthNavigator>
+        <AuthNavigator/>
       </PersistGate>
     </Provider>
     </>
