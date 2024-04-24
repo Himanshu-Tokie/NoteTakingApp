@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ScrollView, StyleSheet, TextInput, View } from "react-native";
 import { RichEditor, RichToolbar, actions } from "react-native-pell-rich-editor";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -7,7 +7,13 @@ export default function Note({navigation}){
     // const data = useSelector(state=>state)
     // console.log(data);
     const [title,setTitle] = useState('')
+    const [text,setText] = useState('')
 const RichText = useRef(); //reference to the RichEditor component
+
+useEffect(()=>{
+    
+})
+
     return(
         <>
         <SafeAreaView>
