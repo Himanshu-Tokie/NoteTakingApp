@@ -1,6 +1,7 @@
 export const Navigation = {
     Login:'login',
     Home:'home',
-    Note:'note',
-    Setting:'setting'
+    Note:'Note',
+    Setting:'setting',
+    Label:'label'
 }

@@ -1,7 +1,7 @@
 import {
-    GoogleSignin,
-    GoogleSigninButton,
-    statusCodes,
+  GoogleSignin,
+  GoogleSigninButton,
+  statusCodes,
 } from '@react-native-google-signin/google-signin';
 
 function isErrorWithCode(error) {

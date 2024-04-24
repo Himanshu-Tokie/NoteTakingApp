@@ -21,5 +21,21 @@ const authSlice = createSlice({
     }
 })
 
+const noteSlice = createSlice({
+    name:'note',
+    initialState:{
+        notes:null
+    },
+    reducers:{
+        login(state,action){
+            console.log('Log In success');
+            
+        },
+        logout(state,action){
+            console.log('Log In Fail');
+        }
+    }
+})
+
 export const {login,logout} = authSlice.actions
 export default authSlice.reducer
