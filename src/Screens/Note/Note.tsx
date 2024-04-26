@@ -5,10 +5,10 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function Note({navigation}){
     // const data = useSelector(state=>state)
-    // console.log(data);
     const [title,setTitle] = useState('')
     const [text,setText] = useState('')
-const RichText = useRef(); //reference to the RichEditor component
+    const RichText = useRef(); //reference to the RichEditor component
+    console.log(text);
 
 useEffect(()=>{
     

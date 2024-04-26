@@ -1,14 +1,16 @@
+import { StyleSheet } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 
-export default function CustomIcon(){
+export default function CustomIcon({name}){
     return (
         <>
-  <Icon name="comments">
-    {/* <Text style={{ fontFamily: 'Arial', fontSize: 15 }}>
-      Login with Facebook
-    </Text> */}
-  </Icon>
+  <Icon name={name} size={20} style={styles.icon} />
         
         </>
     )
 }
+const styles = StyleSheet.create({
+  icon:{
+
+  }
+})

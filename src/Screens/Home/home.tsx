@@ -2,6 +2,7 @@ import React from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
 import { FlatList } from 'react-native-gesture-handler';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import CustomIcon from '../../Components/Icon';
 import Box from '../../Components/homeBox';
 
 const data = [
@@ -44,6 +45,7 @@ export default function Home({navigation}) {
             renderItem={({item}) => <Box text={item} nav={navigation}></Box>}
           />
         </View>
+        <CustomIcon name={'plus-square'}></CustomIcon>
       </SafeAreaView>
     </>
   );
